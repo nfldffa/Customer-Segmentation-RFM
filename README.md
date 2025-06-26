@@ -1,35 +1,29 @@
-# Analisis Segmentasi Pelanggan dengan RFM & K-Means
+# Customer Segmentation Analysis with RFM & K-Means
 
 ![Gradio App Screenshot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/gradio.png?raw=true)
 
-Sebuah proyek data mining untuk mengelompokkan pelanggan berdasarkan perilaku pembelian mereka dan membuat demo interaktif menggunakan Gradio.
-
-## Demo Langsung 🚀
-
-Anda bisa mencoba aplikasi interaktifnya langsung di sini:
-**[Link Demo Gradio di Hugging Face Spaces (akan diisi nanti)]**
+A data mining project to segment customers based on their purchasing behavior and build an interactive demo using Gradio.
 
 ---
 
-## Latar Belakang
+## 🤝 Background
+In the business world, not all customers are the same. Understanding differences in customer behavior is key to effective marketing strategies. This project aims to address that issue by performing customer segmentation using historical transaction data.
 
-Dalam dunia bisnis, tidak semua pelanggan itu sama. Memahami perbedaan perilaku pelanggan adalah kunci untuk strategi pemasaran yang efektif. Proyek ini bertujuan untuk menyelesaikan masalah tersebut dengan melakukan segmentasi pelanggan menggunakan data transaksi historis.
+## ☕ Project Workflow
+1.  **Data Cleaning & Exploration:** Load the transaction dataset, handle missing values and duplicates, and perform Exploratory Data Analysis (EDA).
+2.  **RFM Analysis:** Calculate **Recency**, **Frequency**, and **Monetary** scores for each customer.
+3.  **Preprocessing & Clustering:** Apply log transformation and standardization to the RFM data, then use the **K-Means** algorithm to cluster customers into 4 segments.
+4.  **Interpretation & Visualization:** Analyze the characteristics of each formed segment and visualize them using a scatter plot.
+5.  **Demo App Development:** Build a simple and interactive web interface using **Gradio** so the model output can be tested by anyone.
 
-## Alur Kerja Proyek
-1.  **Pembersihan & Eksplorasi Data:** Memuat dataset transaksi, menangani nilai yang hilang dan duplikat, serta melakukan analisis data eksploratif (EDA).
-2.  **Analisis RFM:** Menghitung skor **Recency**, **Frequency**, dan **Monetary** untuk setiap pelanggan.
-3.  **Pra-pemrosesan & Clustering:** Melakukan transformasi log dan standardisasi pada data RFM, lalu menggunakan algoritma **K-Means** untuk mengelompokkan pelanggan ke dalam 4 segmen.
-4.  **Interpretasi & Visualisasi:** Menganalisis karakteristik setiap segmen yang terbentuk dan memvisualisasikannya dalam scatter plot.
-5.  **Pembuatan Aplikasi Demo:** Membangun antarmuka web yang sederhana dan interaktif menggunakan **Gradio** agar hasil model dapat diuji oleh siapa saja.
-
-## Teknologi yang Digunakan
-- **Analisis Data:** Python, Pandas, NumPy
+## 🚀 Technologies Used
+- **Data Analysis:** Python, Pandas, NumPy
 - **Machine Learning:** Scikit-learn
-- **Visualisasi:** Matplotlib, Seaborn
+- **Visualization:** Matplotlib, Seaborn
 - **UI/Demo:** Gradio
 
-## Hasil Visualisasi
-Berikut adalah hasil pengelompokan pelanggan ke dalam 4 segmen:
+## 👌 Visualization Result
+Here is the result of customer segmentation into 4 clusters::
 ![Customer Segmentation Plot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/scatter%20plot.png?raw=true)
 
 ---
