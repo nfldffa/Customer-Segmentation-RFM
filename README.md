@@ -30,6 +30,6 @@ Dalam dunia bisnis, tidak semua pelanggan itu sama. Memahami perbedaan perilaku 
 
 ## Hasil Visualisasi
 Berikut adalah hasil pengelompokan pelanggan ke dalam 4 segmen:
-![Customer Segmentation Plot](URL_SCREENSHOT_PLOT_ANDA)
+![Customer Segmentation Plot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/scatter%20plot.png?raw=true)
 
 ---
