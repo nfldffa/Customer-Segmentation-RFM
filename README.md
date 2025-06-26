@@ -23,7 +23,7 @@ In the business world, not all customers are the same. Understanding differences
 - **UI/Demo:** Gradio
 
 ## 👌 Visualization Result
-Here is the result of customer segmentation into 4 clusters::
+Here is the result of customer segmentation into 4 clusters:
 ![Customer Segmentation Plot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/scatter%20plot.png?raw=true)
 
 ---
