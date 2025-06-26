@@ -22,6 +22,10 @@ In the business world, not all customers are the same. Understanding differences
 - **Visualization:** Matplotlib, Seaborn
 - **UI/Demo:** Gradio
 
+## 📔 Dataset Source  
+The dataset used in this project is available on Kaggle:  
+[Online Retail Dataset – Ulrik Thyge Pedersen](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset)  
+
 ## 👌 Visualization Result
 Here is the result of customer segmentation into 4 clusters:
 ![Customer Segmentation Plot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/scatter%20plot.png?raw=true)
