@@ -1,6 +1,6 @@
 # Analisis Segmentasi Pelanggan dengan RFM & K-Means
 
-![Gradio App Screenshot](URL_SCREENSHOT_GRADIO_ANDA)
+![Gradio App Screenshot](![Image](https://github.com/user-attachments/assets/7bdefa36-7d85-4a7b-a128-b5ee14dc5c69))
 
 Sebuah proyek data mining untuk mengelompokkan pelanggan berdasarkan perilaku pembelian mereka dan membuat demo interaktif menggunakan Gradio.
 
