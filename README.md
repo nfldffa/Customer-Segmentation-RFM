@@ -30,4 +30,7 @@ The dataset used in this project is available on Kaggle:
 Here is the result of customer segmentation into 4 clusters:
 ![Customer Segmentation Plot](https://github.com/nfldffa/Customer-Segmentation-RFM/blob/main/scatter%20plot.png?raw=true)
 
+## 🔑 Live Demo
+You can try the interactive app live here:
+(https://huggingface.co/spaces/nfldffa/Customer-Segmentation-Demo)
 ---
